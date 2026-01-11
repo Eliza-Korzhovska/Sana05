@@ -16,6 +16,8 @@ namespace ConsoleApp1
             NumberOfDoors = numberOfDoors;
             FuelType = fuelType;
         }
+        public int GetNumberOfDoors() { return NumberOfDoors; }
+        public string GetFuelType() { return FuelType; }
         public override void DisplayInfo()
         {
             Console.WriteLine($"Легковий автомобіль: {Brand} {Model} {Year}");
