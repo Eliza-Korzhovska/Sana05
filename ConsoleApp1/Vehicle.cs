@@ -19,10 +19,6 @@ namespace ConsoleApp1
             Year = year;
             Price = price;
         } 
-        public string GetBrand() { return Brand; }
-        public string GetModel() { return Model; }
-        public int GetYear() { return Year; }
-        public double GetPrice() { return Price; }
         public virtual void DisplayInfo()
         {
             Console.WriteLine($"{Brand} {Model} {Year}");

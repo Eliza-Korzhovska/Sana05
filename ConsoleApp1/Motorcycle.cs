@@ -17,8 +17,6 @@ namespace ConsoleApp1
             EngineVolume = engineVolume;
             HasWindshield = hasWindshield;
         }
-        public int GetEngineVolume() { return EngineVolume; }
-        public bool GetHasWindshield() { return HasWindshield; }
         public override void DisplayInfo()
         {
             Console.WriteLine($"Мотоцикл: {Brand} {Model} {Year}");

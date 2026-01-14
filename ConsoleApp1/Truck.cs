@@ -16,8 +16,6 @@ namespace ConsoleApp1
             LoadCapacity = loadCapacity;
             NumberOfAxles = numberOfAxles;
         }
-        public double GetLoadCapacity() { return LoadCapacity; }
-        public int GetNumberOfAxles() { return NumberOfAxles; }
         public override void DisplayInfo()
         {
             Console.WriteLine($"Вантажівка: {Brand} {Model} {Year}");
